@@ -19,7 +19,7 @@ function Products() {
     {
       loading == false &&(
     <div className="mt-10 max-w-[90%] lg:max-w-6xl mx-auto">
-      <h1 className="font-bold uppercase text-5xl text-center">All Products</h1>
+      <h1 className="font-bold text-5xl text-center">All PRODUCTS</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
         {
           products.map((product) =>(
