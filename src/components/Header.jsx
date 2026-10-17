@@ -24,7 +24,7 @@ function Header() {
               />
             </svg>
           </button>
-          <div className="uppercase font-bold text-2xl">MasterIT Store</div>
+          <div className="uppercase font-bold text-2xl">MASTERIT STORE</div>
           <ul className="hidden lg:flex items-center justify-center gap-4 text-xl">
             <li>
               <NavLink to="/" className={"hover:underline decoration-yellow-200 transition-all aria-[current=page]:underline aria-[current=page]:text-yellow-500"}>Home</NavLink>
