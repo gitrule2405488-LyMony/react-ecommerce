@@ -6,7 +6,7 @@ function Products() {
   return (
     <>
     {
-      loading == true && (
+      loading === true && (
         <div className = "flex items-center justify-center py-10">
           <div className = "border-gray-300 h-8 border-4 w-8 animate-spin rounded-full border-t-gray-600  ">
 
@@ -17,7 +17,7 @@ function Products() {
 
 
     {
-      loading == false &&(
+      loading === false &&(
     <div className="mt-10 max-w-[90%] lg:max-w-6xl mx-auto">
       <h1 className="font-bold text-5xl text-center">All PRODUCTS</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">

@@ -15,8 +15,8 @@ function Cart({ product }) {
         />
       </figure>
       <div className="p-2">
-        <p className="line-clamp-1">products name</p>
-        <p className="text-red-600">Price : $09.90</p>
+        <p className="line-clamp-1">{product.title}</p>
+        <p className="text-red-600">Price : ${product.price}</p>
       </div>
     </Link>
   );
